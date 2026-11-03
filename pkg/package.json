@@ -1,0 +1,15 @@
+{
+  "name": "mortgage-calculator",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "mortgage_calculator_bg.wasm",
+    "mortgage_calculator.js",
+    "mortgage_calculator.d.ts"
+  ],
+  "main": "mortgage_calculator.js",
+  "types": "mortgage_calculator.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
